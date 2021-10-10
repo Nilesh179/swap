@@ -1,13 +1,13 @@
-// rite a c program to swap two number.
-#include<stdio.h>
-int main()
-{
-	int a,b;
-	printf("Enter the two numbers 'a' and 'b': \n");
-	scanf("%d%d",&a,&b);
-	a=a*b;
-	b=a/b;
-	a=a/b;
-	printf("First number a:=%d\tSecond number b:=%d\n",a,b);
-	return 0;
-}
+#include<stdio.h>  
+int main()    
+{    
+	
+int a=10, b=20;      
+printf("Before swap a=%d b=%d\n",a,b);      
+a=a+b;//a=30 (10+20);    
+b=a-b;//b=10 (30-20);    
+a=a-b;//a=20 (30-10);    
+printf("\nAfter swap a=%d b=%d",a,b); 
+	
+return 0;  
+}   
